@@ -1,0 +1,31 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "strict": true,
+    "exactOptionalPropertyTypes": true,
+    "paths": {
+      "@relate-by/schema-brands": ["packages/brands/src/index.ts"],
+      "@relate-by/schema-person": ["packages/person/src/index.ts"],
+      "@relate-by/schema-postal-address": [
+        "packages/postal-address/src/index.ts"
+      ],
+      "@relate-by/schema-relationship": ["packages/relationship/src/index.ts"],
+      "@relate-by/schema-thing": ["packages/thing/src/index.ts"],
+      "@relate-by/schema-to-address": ["packages/to-address/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
