@@ -11,7 +11,8 @@
         "outputPath": "dist/packages/brands",
         "main": "packages/brands/src/index.ts",
         "tsConfig": "packages/brands/tsconfig.lib.json",
-        "assets": ["packages/brands/*.md"]
+        "assets": ["packages/brands/*.md"],
+        "generatePackageJson": true
       }
     },
     "publish": {

@@ -11,7 +11,8 @@
         "outputPath": "dist/packages/relationship",
         "main": "packages/relationship/src/index.ts",
         "tsConfig": "packages/relationship/tsconfig.lib.json",
-        "assets": ["packages/relationship/*.md"]
+        "assets": ["packages/relationship/*.md"],
+        "generatePackageJson": true
       }
     },
     "publish": {

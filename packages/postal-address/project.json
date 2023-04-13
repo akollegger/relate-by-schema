@@ -11,7 +11,8 @@
         "outputPath": "dist/packages/postal-address",
         "main": "packages/postal-address/src/index.ts",
         "tsConfig": "packages/postal-address/tsconfig.lib.json",
-        "assets": ["packages/postal-address/*.md"]
+        "assets": ["packages/postal-address/*.md"],
+        "generatePackageJson": true
       }
     },
     "publish": {

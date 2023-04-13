@@ -11,7 +11,8 @@
         "outputPath": "dist/packages/thing",
         "main": "packages/thing/src/index.ts",
         "tsConfig": "packages/thing/tsconfig.lib.json",
-        "assets": ["packages/thing/*.md"]
+        "assets": ["packages/thing/*.md"],
+        "generatePackageJson": true
       }
     },
     "publish": {
