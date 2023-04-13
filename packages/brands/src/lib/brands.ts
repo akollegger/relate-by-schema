@@ -1,4 +1,5 @@
 import { pipe } from "@effect/data/Function";
+import { Arbitrary, ArbitraryHookId } from "@effect/schema/Arbitrary";
 import * as S from "@effect/schema/Schema";
 
 /** A colon separated set of labels. */

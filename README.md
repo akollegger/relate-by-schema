@@ -15,3 +15,9 @@ Run `npx nx connect-to-nx-cloud` to enable [remote caching](https://nx.app) and 
 ## Further help
 
 Visit the [Nx Documentation](https://nx.dev) to learn more.
+
+## Add a library
+
+```
+nx g @nrwl/js:lib  --bundler=esbuild --publishable --importPath=@relate-by/schema-typical typical
+```

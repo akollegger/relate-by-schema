@@ -5,7 +5,7 @@
   "scripts": {},
   "private": true,
   "dependencies": {
-    "@effect/schema": "^0.2.0",
+    "@effect/schema": "^0.2.1",
     "schema-dts": "^1.1.2",
     "tslib": "^2.3.0"
   },
@@ -32,4 +32,3 @@
     "typescript": "~4.9.5"
   }
 }
-

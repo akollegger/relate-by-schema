@@ -24,7 +24,8 @@
       ],
       "@relate-by/schema-relationship": ["packages/relationship/src/index.ts"],
       "@relate-by/schema-thing": ["packages/thing/src/index.ts"],
-      "@relate-by/schema-to-address": ["packages/to-address/src/index.ts"]
+      "@relate-by/schema-to-address": ["packages/to-address/src/index.ts"],
+      "@relate-by/schema-typical": ["packages/typical/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
